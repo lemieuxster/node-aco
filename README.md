@@ -28,5 +28,6 @@ Write an Adobe Color file (.aco) to the given path.
 
 The callback gets the writeable stream for the `.aco` file, with `.end()` having been already called. It is possible to listen for the `finish` event as well as get the path. The `.aco` file can then be used in Photoshop and imported to the swatches panel.
 
+Credit to [Larry Tesler for explaining the spec](http://www.nomodes.com/aco.html)
 
 
